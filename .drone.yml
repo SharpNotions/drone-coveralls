@@ -1,0 +1,9 @@
+pipeline:
+  docker:
+    image: plugins/docker
+    secrets: [ docker_username, docker_password ]
+    repo: sharpnotions/drone-coveralls
+    when:
+      event: tag
+    branches:
+      - master
