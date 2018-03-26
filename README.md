@@ -2,6 +2,8 @@
 
 Drone.io plugin for pushing test coverage to Coveralls
 
+_note this was just for testing how to create a plug-in for Drone.io while it should work it is more a proof of concept for us more than anything_ 
+
 ## Configuration
 
 The following parameters are used to configure the plugin:
